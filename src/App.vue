@@ -21,9 +21,20 @@ export default {
 
 <template>
   <!-- Qui metto la struttura generale della pagina -->
-  <ViteHello />
+  <div class="container">
+
+    <ViteHello />
+  </div>
 </template>
 
 <style>
 /* Qui metto lo stile generale */
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 </style>
