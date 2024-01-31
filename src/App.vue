@@ -1,5 +1,6 @@
 <script>
 import ViteHello from './components/ViteHello.vue'
+import JumboSection from './components/JumboSection.vue'
 
 export default {
   name: 'myRoot',
@@ -13,7 +14,8 @@ export default {
     // possibili metodi
   },
   components: {
-    ViteHello
+    ViteHello,
+    JumboSection
   }
   // eccetera
 }
@@ -22,19 +24,23 @@ export default {
 <template>
   <!-- Qui metto la struttura generale della pagina -->
   <div class="container">
-
     <ViteHello />
+    <JumboSection />
   </div>
 </template>
 
 <style>
 /* Qui metto lo stile generale */
 body {
-  background-color: aliceblue;
+  background-color: gray;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
 }
 </style>
