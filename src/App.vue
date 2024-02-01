@@ -1,5 +1,5 @@
 <script>
-import ViteHello from './components/ViteHello.vue'
+import AppTitle from './components/AppTitle.vue'
 import JumboSection from './components/JumboSection.vue'
 
 export default {
@@ -14,7 +14,7 @@ export default {
     // possibili metodi
   },
   components: {
-    ViteHello,
+    AppTitle,
     JumboSection
   }
   // eccetera
@@ -24,7 +24,7 @@ export default {
 <template>
   <!-- Qui metto la struttura generale della pagina -->
   <div class="container">
-    <ViteHello />
+    <AppTitle />
     <JumboSection />
   </div>
 </template>
